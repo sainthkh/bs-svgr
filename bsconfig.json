@@ -1,0 +1,17 @@
+{
+  "name": "bs-svgr",
+  "reason": {
+    "react-jsx": 2
+  },
+  "sources": {
+    "dir" : "src"
+  },
+  "package-specs": [{
+    "module": "commonjs",
+    "in-source": true
+  }],
+  "bs-dependencies": [
+    "reason-react"
+  ],
+  "refmt": 3
+}
