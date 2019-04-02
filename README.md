@@ -53,11 +53,9 @@ let component = ReasonReact.statelessComponent("Loading");
 
 open Svgr;
 
-module SvgFile: Svg = {
+module Icon = SvgComponent({
   let component = req("../assets/loading.svg")
-}
-
-module Icon = SvgComponent(SvgFile);
+});
 
 let make = (_children) => {
   ...component,
